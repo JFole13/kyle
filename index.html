@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/tree.png">
+    <title>Kyle Thompson</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+    </style>
+</head>
+<body>
+    <div id="profile-container">
+        <div id="profile-info-container">
+            <img src="images/kyle1.jpg" alt="Profile Picture" id="profile-picture">
+            <h1 id="name">Kyle Thompson</h1>
+            <div id="bio">
+                Future Engineer and Life Long Learner!
+            </div>
+            <ul id="contact-info">
+                <li><a href="https://www.linkedin.com/in/kyle-thompson-78654a223/" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto: kylejt19@gmail.com">Email</a></li>
+                <li id="resume-link"><a href="KyleResume.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </div>
+        <div id="portfolio-info-container">
+            <!-- <ul id="portfolio-info">
+                <li><a href="#about-info">About Me</a></li>
+                <li><a href="#projects-container">Projects</a></li>
+            </ul> -->
+        </div>
+    </div>
+    <section class="section-container">
+        <h2>About Me</h2>
+        <div class="line" style="background-color:#d0c794;"> </div>
+        <div id="about-info">
+            <p>I am an Iowa State University student who is studying Electrical Engineering. 
+                I am a life long learner who spends a lot of time trying out all of the amazing things 
+                I learn in my classes! My interest currently resides in control systems and embedded systems, but I 
+                really do enjoy it all. Currently I am working for Vermeer Corporation as an embedded software
+                engineering intern. 
+            </p>
+        </div>
+    </section>
+    <section class="section-container" id="project-section">
+        <h2>Projects</h2>
+        <div class="line"  style="background-color:#d0c794;"> </div>
+        <div id="projects-container"> 
+            <div class="project">
+                <div class="project-title">
+                    Handheld Calculator Project
+                </div>
+                <div class="project-picture">
+                    <img src="images/fpgaboard.jfif" alt="FPGA Board">
+                </div>
+                <div class="project-description">
+                    <p>In this project, the goal was to create a simulated handheld calculator that could do basic
+                         math functions like addition, subtraction, and multiplication using Verilog, Quartus Prime,
+                          and Questa Modelsim to program Iowa State's Altera DE2-115 Cyclone IV FPGA Board. I worked on 
+                          this project independently and gained a lot of experience dealing with time management and 
+                          project deadlines. For this project to come together, I had to learn a lot about Verilog coding 
+                          and Quartus Prime logic design; along with these skills I developed, I also learned how to more 
+                          accurately troubleshoot the hidden issues that come up in large designs like this one. This was a 
+                          very fun project that taught me a lot about the engineering process, I am thankful I got to work 
+                          on something that is very commonly used in the real world; it gave me a new appreciation for 
+                          something that I had taken for granted before. 
+                    <p>
+                </div>
+                <div class="project-link">
+                    <a style="color: blue; text-decoration:underline;"href="CprE_281_Final_Project_Report.pdf" target="_blank">View Project Report</a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-title">
+                    Active Crossover Network Project
+                </div>
+                <div class="project-picture">
+                    <img src="images/waves.png" alt="Crossover waves">
+                </div>
+                <div class="project-description">
+                    <p>For this project, the goal was to create an active 3-way crossover network, 
+                        similar to what you would see in a basic speaker system today. Using basic 
+                        operational amplifier configurations and calculations, my partner and I took 
+                        one audio signal and split it into 3-parts: a tweeter, a squawker, and a subwoofer, 
+                        each with different ranges of frequency that were all sourced from the original audio. 
+                        This project not only helped me develop my teamwork and leadership skills, but it also
+                         taught me a lot about dealing with systems that are built with non-ideal circuit 
+                         elements. Lots of calculations came close to the values required, but some were not
+                          there and required some tweaking from my partner and me. This lab helped give me 
+                          confidence in my understanding of frequency response and filter design using software 
+                          like LTSpice and Matlab. 
+                    <p>
+                </div>
+                <div class="project-link">
+                    <a style="color: blue; text-decoration:underline;"href="Project2_EE230.pdf" target="_blank">View Project Report</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="essay-container" class="section-container">
+        <h2>Ethics Essay</h2>
+        <div class="line" style="background-color:#d0c794;"> </div>
+        <div id="about-info">
+            <a style="color:blue; text-decoration: underline; font-size: 1.4rem;" target="_blank" href="Ethics_Essay.pdf">View Essay</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
